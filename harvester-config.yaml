@@ -1,0 +1,10 @@
+scheme_version: 1
+os:
+  modules:
+    - kvm
+    - nvme
+    - rbd
+    - nbd
+  persistent_state_paths:
+    - /var/lib/rook
+    - /var/lib/ceph
